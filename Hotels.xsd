@@ -1,4 +1,4 @@
-<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <element name="Hotels">
     <element name="Hotel">
       <attribute name="Rating" type="decimal" use="optional" />
@@ -19,10 +19,10 @@
             </complexType>
           </element>
         </sequence>
-      </complextype>
+      </complexType>
     </element>
   </element>
-</xsd:schema>
+</xs:schema>
     
                   
                   
