@@ -1,7 +1,7 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://jman001188.github.io/CSE445Assignment4/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <element name="Hotels">
     <complexType>
-      <all>
+      <sequence>
         <element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <complexType>
             <sequence>
@@ -23,7 +23,7 @@
             <attribute name="Rating" type="decimal" use="optional" />
           </complexType>
         </element>
-      </all>
+      </sequence>
     </complexType>
   </element>
 </schema>
