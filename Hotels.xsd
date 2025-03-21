@@ -2,7 +2,7 @@
   <element name="Hotels">
     <complexType>
       <sequence>
-        <element name="Hotel" minOccurs="1" maxOccurs="unbounded ">
+        <element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <attribute name="Rating" type="decimal" use="optional" />
           <complexType>
             <sequence>
