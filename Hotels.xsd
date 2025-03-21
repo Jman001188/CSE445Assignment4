@@ -1,29 +1,27 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://jman001188.github.io/CSE445Assignment4/Hotels.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <element name="Hotels">
     <complexType>
-      <sequence>
-        <element name="Hotel" minOccurs="1" maxOccurs="unbounded">
-          <complexType>
-            <attribute name="Rating" type="decimal" use="optional" />
-            <sequence>
-              <element name="Name" type="string" minOccurs="1" maxOccurs="1" />
-              <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded" />
-              <element name="Address" minOccurs="1" maxOccurs="1">
-                <complexType>
-                  <attribute name="NearestAirport" use="required" />
-                  <sequence>
-                    <element name="Number" type="integer" minOccurs="1" maxOccurs="1" />
-                    <element name="Street" type="string" minOccurs="1" maxOccurs="1" />
-                    <element name="City" type="string" minOccurs="1" maxOccurs="1" />
-                    <element name="State" type="string" minOccurs="1" maxOccurs="1" />
-                    <element name="Zip" type="integer" minOccurs="1" maxOccurs="1" />
-                  </sequence>
-                </complexType>
-              </element>
-            </sequence>
-          </complexType>
-        </element>
-      </sequence>
+      <element name="Hotel" minOccurs="1" maxOccurs="unbounded">
+        <complexType>
+          <attribute name="Rating" type="decimal" use="optional" />
+          <sequence>
+            <element name="Name" type="string" minOccurs="1" maxOccurs="1" />
+            <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded" />
+            <element name="Address" minOccurs="1" maxOccurs="1">
+              <complexType>
+                <attribute name="NearestAirport" use="required" />
+                <sequence>
+                  <element name="Number" type="integer" minOccurs="1" maxOccurs="1" />
+                  <element name="Street" type="string" minOccurs="1" maxOccurs="1" />
+                  <element name="City" type="string" minOccurs="1" maxOccurs="1" />
+                  <element name="State" type="string" minOccurs="1" maxOccurs="1" />
+                  <element name="Zip" type="integer" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
     </complexType>
   </element>
 </schema>
