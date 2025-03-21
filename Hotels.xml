@@ -1,4 +1,4 @@
-<Hotels xsd:schemaLocation="https://github.com/Jman001188/CSE445Assignment4/blob/main/Hotels.xsd">
+<Hotels xsi:schemaLocation="https://github.com/Jman001188/CSE445Assignment4/blob/main/Hotels.xsd">
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
