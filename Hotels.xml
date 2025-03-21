@@ -38,7 +38,7 @@
     
   <Hotel Rating="4.2">
     <Name>Holiday Inn</Name>
-    <Phone>480-507-3000/Phone>
+    <Phone>480-507-3000</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>5530</Number>
       <Street>S Power Rd</Street>
