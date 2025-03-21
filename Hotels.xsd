@@ -3,14 +3,14 @@
     <complexType>
       <sequence>
         <element name="Hotel" minOccurs="1" maxOccurs="unbounded">
-          <attribute name="Rating" type="decimal" use="optional" />
           <complexType>
+            <attribute name="Rating" type="decimal" use="optional" />
             <sequence>
               <element name="Name" type="string" minOccurs="1" maxOccurs="1" />
               <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded" />
               <element name="Address" minOccurs="1" maxOccurs="1">
-                <attribute name="NearestAirport" use="required" />
                 <complexType>
+                  <attribute name="NearestAirport" use="required" />
                   <sequence>
                     <element name="Number" type="integer" minOccurs="1" maxOccurs="1" />
                     <element name="Street" type="string" minOccurs="1" maxOccurs="1" />
