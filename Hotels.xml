@@ -1,4 +1,3 @@
-<? xml version="1.0"?>
 <Hotels xmlns="https://jman001188.github.io/CSE445Assignment4/Hotels.xsd">
   <Hotel Rating="4.2">
     <Name>Westin</Name>
