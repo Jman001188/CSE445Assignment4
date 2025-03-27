@@ -1,4 +1,4 @@
-<Hotel xmlns="https://jman001188.github.io/CSE445Assignment4/Hotels.xsd">
+<Hotel>
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Name>Hyatt</Name>
@@ -10,4 +10,4 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-</Hotels>
+</Hotel>
